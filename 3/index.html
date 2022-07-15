@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        padding: 0px;
+        margin: 0px;
+        background-image: url('1.jfif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        
+    }
+    a{
+        text-decoration: none;
+        padding: 34px 18px;
+        color: rgb(214, 73, 30);
+    }
+    .left{
+        /* border: 1px solid green; */
+        display: inline-block;
+        position: absolute;
+        margin-left: 30px;
+        top: 6px;
+    }
+    .left img{
+        width: 70px;
+ height: 70px;
+        cursor: pointer;
+        filter: invert(10%);
+    }
+    .mid{
+        border: 1px solid teal;
+        display: block;
+        width: 33%;
+        margin: 25px auto;
+        /* top: 30px; */
+    }
+    .mid{
+        /* background-color: burlywood; */
+    }
+    .navbar li{
+        display: inline-block;
+        /* margin-right: 29px; */
+        /* padding: 0px 20px; */
+    }
+    .right{
+        /* border: 1px solid hotpink; */
+        display: inline-block;
+        position: absolute;
+        right: 23px;
+        top: 30px;
+    }
+.navbar li a:hover , .navbar li a.active{
+    text-decoration: underline;
+    /* color: gray; */
+        color: rgb(105, 97, 94);
+}
+.btn{
+    padding: 10px 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.container{
+    border: 2px solid rgb(66, 66, 62);
+    margin: 80px 35px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 10px;
+}
+.container h2{
+    text-align: center;
+}
+.forn-group input{
+    padding: 10px;
+    text-align: center;
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    border: 2px solid gray;
+}
+.container .btn{
+display: block;
+width: 33%;
+margin: auto;
+}
+</style>
+<body>
+    <header>
+        <div class="left"><img src="/img/najam.png" alt="">
+        <div><span>Najam Pule</span></div></div>
+        <div class="mid">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Video</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+           <button class="btn">Sign In</button>
+           <button class="btn">Sign Up</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Jion us to Grow Up</h2>
+    <form action="">
+        <div class="forn-group">
+            <input type="text" name="" id="" placeholder="Enter Email">
+        </div>
+        <div class="forn-group">
+            <input type="password" name="" id="" placeholder="Enter password">
+        </div>
+        <div class="forn-group">
+            <input type="number" name="" id="" placeholder="Enter your number">
+        </div>
+        <button class="btn"  id="btn">Join Us</button>
+    </form>
+    </div>
+</body>
+</html>
